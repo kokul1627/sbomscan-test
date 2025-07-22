@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "bom-ref": "requirements-L63",
+      "description": "requirements line 63: requests==2.25.1",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://pypi.org/simple/requests/"
+        }
+      ],
+      "name": "requests",
+      "purl": "pkg:pypi/requests@2.25.1",
+      "type": "library",
+      "version": "2.25.1"
+    },
+    {
+      "bom-ref": "npm-example",
+      "description": "Example npm package",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://www.npmjs.com/package/lodash"
+        }
+      ],
+      "name": "lodash",
+      "purl": "pkg:npm/lodash@4.17.20",
+      "type": "library",
+      "version": "4.17.20"
+    },
+    {
+      "bom-ref": "maven-example",
+      "description": "Example Maven package",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://mvnrepository.com/artifact/org.apache.struts/struts2-core"
+        }
+      ],
+      "name": "struts2-core",
+      "purl": "pkg:maven/org.apache.struts/struts2-core@2.3.16",
+      "type": "library",
+      "version": "2.3.16"
+    },
+    {
+      "bom-ref": "requirements-L6",
+      "description": "requirements line 6: Authlib==1.6.0",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://pypi.org/simple/Authlib/"
+        }
+      ],
+      "name": "Authlib",
+      "purl": "pkg:pypi/authlib@1.6.0",
+      "type": "library",
+      "version": "1.6.0"
+    },
+    {
+      "bom-ref": "requirements-L9",
+      "description": "requirements line 9: CacheControl==0.14.3",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://pypi.org/simple/CacheControl/"
+        }
+      ],
+      "name": "CacheControl",
+      "purl": "pkg:pypi/cachecontrol@0.14.3",
+      "type": "library",
+      "version": "0.14.3"
+    },
+    {
+      "bom-ref": "requirements-L60",
+      "description": "requirements line 60: PyYAML==6.0.2",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://pypi.org/simple/PyYAML/"
+        }
+      ],
+      "name": "PyYAML",
+      "purl": "pkg:pypi/pyyaml@6.0.2",
+      "type": "library",
+      "version": "6.0.2"
+    }
+  ],
+  "dependencies": [
+    {"ref": "requirements-L63"},
+    {"ref": "npm-example"},
+    {"ref": "maven-example"},
+    {"ref": "requirements-L6"},
+    {"ref": "requirements-L9"},
+    {"ref": "requirements-L60"}
+  ],
+  "metadata": {
+    "timestamp": "2025-07-11T07:40:42.818207+00:00",
+    "tools": {
+      "components": [
+        {
+          "description": "CycloneDX Software Bill of Materials (SBOM) generator for Python projects and environments",
+          "externalReferences": [
+            {"type": "build-system", "url": "https://github.com/CycloneDX/cyclonedx-python/actions"},
+            {"type": "distribution", "url": "https://pypi.org/project/cyclonedx-bom/"},
+            {"type": "documentation", "url": "https://cyclonedx-bom-tool.readthedocs.io/"},
+            {"type": "issue-tracker", "url": "https://github.com/CycloneDX/cyclonedx-python/issues"},
+            {"type": "license", "url": "https://github.com/CycloneDX/cyclonedx-python/blob/main/LICENSE"},
+            {"type": "release-notes", "url": "https://github.com/CycloneDX/cyclonedx-python/blob/main/CHANGELOG.md"},
+            {"type": "vcs", "url": "https://github.com/CycloneDX/cyclonedx-python/"},
+            {"type": "website", "url": "https://github.com/CycloneDX/cyclonedx-python/#readme"}
+          ],
+          "group": "CycloneDX",
+          "licenses": [{"license": {"acknowledgement": "declared", "id": "Apache-2.0"}}],
+          "name": "cyclonedx-py",
+          "type": "application",
+          "version": "6.1.0"
+        },
+        {
+          "description": "Python library for CycloneDX",
+          "externalReferences": [
+            {"type": "build-system", "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions"},
+            {"type": "distribution", "url": "https://pypi.org/project/cyclonedx-python-lib/"},
+            {"type": "documentation", "url": "https://cyclonedx-python-library.readthedocs.io/"},
+            {"type": "issue-tracker", "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues"},
+            {"type": "license", "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE"},
+            {"type": "release-notes", "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md"},
+            {"type": "vcs", "url": "https://github.com/CycloneDX/cyclonedx-python-lib"},
+            {"type": "website", "url": "https://github.com/CycloneDX/cyclonedx-python-lib/#readme"}
+          ],
+          "group": "CycloneDX",
+          "licenses": [{"license": {"acknowledgement": "declared", "id": "Apache-2.0"}}],
+          "name": "cyclonedx-python-lib",
+          "type": "library",
+          "version": "9.1.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:ce790377-ae57-446e-b273-e261fe810d1c",
+  "version": 1,
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6"
+}
